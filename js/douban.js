@@ -89,6 +89,9 @@ function initDouban() {
         
         // 初始更新显示状态
         updateDoubanVisibility();
+
+        // 滚动到页面顶部
+        window.scrollTo(0, 0);
     }
 
     // 加载用户标签
@@ -556,7 +559,7 @@ function showTagManageModal() {
     // 创建模态框元素
     modal = document.createElement('div');
     modal.id = 'tagManageModal';
-    modal.className = 'fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50';
+    modal.className = 'fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-40';
     
     // 当前使用的标签类型和默认标签
     const isMovie = doubanMovieTvCurrentSwitch === 'movie';
