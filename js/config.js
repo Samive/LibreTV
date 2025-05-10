@@ -26,6 +26,11 @@ const API_SITES = {
         name: '黑木耳',
         detail: 'https://heimuer.tv',
     },
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com',
+        name: '电影天堂资源',
+        detail: 'http://caiji.dyttzyapi.com',
+    },
     ffzy: {
         api: 'http://ffzy5.tv',
         name: '非凡影视',
@@ -128,6 +133,14 @@ const API_SITES = {
     wujin: {
         api: 'https://api.wujinapi.me',
         name: '无尽资源'
+    },
+    wwzy: {
+        api: 'https://wwzy.tv',
+        name: '旺旺短剧'
+    },
+    ikun: {
+        api: 'https://ikunzyapi.com',
+        name: 'iKun资源'
     },
 };
 
